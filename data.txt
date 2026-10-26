@@ -1,0 +1,27 @@
+root@PG-ITISS21:~/git_lab#  git branch -M main
+root@PG-ITISS21:~/git_lab# git remote add origin https://github.com/PratikHardas26/git_lab_remote.git
+root@PG-ITISS21:~/git_lab# git push -u origin main
+Username for 'https://github.com': PratikHardas26
+Password for 'https://PratikHardas26@github.com':
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 274 bytes | 274.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/PratikHardas26/git_lab_remote.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+root@PG-ITISS21:~/git_lab# CD
+CD: command not found
+root@PG-ITISS21:~/git_lab# cd
+root@PG-ITISS21:~# mkdir git_lab_remote
+root@PG-ITISS21:~# cd git_lab_remote/
+root@PG-ITISS21:~/git_lab_remote# git clone https://github.com/PratikHardas26/git_lab_remote.git
+Cloning into 'git_lab_remote'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+root@PG-ITISS21:~/git_lab_remote# ls
